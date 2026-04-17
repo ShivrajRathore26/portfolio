@@ -70,7 +70,7 @@ export default function Navbar() {
   return (
     <nav className="fixed top-0 w-full z-50 px-8 py-4 flex items-center justify-between bg-white/10 backdrop-blur-xl border-b border-white/20 shadow-lg">
 
-      {/* LEFT LOGO */}.png
+      {/* LEFT LOGO */}
       <div className="flex items-center">
         <img
           src={logo}
