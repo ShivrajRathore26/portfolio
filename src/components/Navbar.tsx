@@ -63,7 +63,7 @@
 //     );
 // }
 
-import logo from "../assets/Logo.png";
+import logo from "../assets/logo.png";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 
 export default function Navbar() {
