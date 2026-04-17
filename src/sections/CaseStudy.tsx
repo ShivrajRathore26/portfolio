@@ -32,7 +32,7 @@ const caseStudies = [
       "PDF generation & reporting",
       "Integrated Payment Gateway"
     ],
-    tech: ["Node.js", "TypeScript", "MongoDB", "AWS EC2", "S3", "PM2"],
+    tech: ["Node.js", "TypeScript", "MongoDB","payment gateway", "AWS EC2", "S3", "PM2"],
   },
 ];
 
@@ -41,7 +41,7 @@ export default function CaseStudy() {
     <section id="case-study" className="py-24 px-6 text-center">
 
       {/* Heading */}
-      <h2 className="text-4xl font-bold mb-14 bg-gradient-to-r from-blue-400 via-purple-400 to-pink-500 bg-clip-text text-transparent">
+      <h2 className="text-4xl font-bold mb-14 bg-linear-to-r from-blue-400 via-purple-400 to-pink-500 bg-clip-text text-transparent">
         Case Studies
       </h2>
 
@@ -53,7 +53,7 @@ export default function CaseStudy() {
             initial={{ opacity: 0, y: 60 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
-            className="relative p-[1px] rounded-2xl bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500"
+            className="relative p-px rounded-2xl bg-linear-to-r from-blue-500 via-purple-500 to-pink-500"
           >
             {/* Glass Card */}
             <div className="bg-[#0f172a]/80 backdrop-blur-xl border border-white/10 p-6 rounded-2xl shadow-xl text-left hover:scale-[1.03] transition">
@@ -85,7 +85,7 @@ export default function CaseStudy() {
                 {item.tech.map((t, idx) => (
                   <span
                     key={idx}
-                    className="px-3 py-1 text-xs rounded-full bg-gradient-to-r from-blue-500/80 to-purple-600/80 border border-white/20"
+                    className="px-3 py-1 text-xs rounded-full bg-linear-to-r from-blue-500/80 to-purple-600/80 border border-white/20"
                   >
                     {t}
                   </span>
